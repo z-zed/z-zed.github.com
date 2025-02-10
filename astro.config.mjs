@@ -11,6 +11,6 @@ import netlify from "@astrojs/netlify";
 // https://astro.build/config
 export default defineConfig({
   output:'server',
-  integrations: [mdx(), sitemap(), tailwind(), icon()],
+  integrations: [mdx(), sitemap(// https://z-zed.github.com), tailwind(), icon()],
   adapter: netlify(),
 });
